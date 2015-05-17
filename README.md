@@ -8,7 +8,7 @@ Install mtrack:
 If that doesn't work (I got the broken packages error), use Ubuntu Software Center to install one of the Transitional packages (e.g. trusty for 14.04).
 
 Then:  
-`sudo vi /etc/X11/xorg.conf`
+`sudo vi /etc/X11/xorg.conf.d`
 
 Paste in the contents of my [xorg.conf.d](https://raw.githubusercontent.com/JimSangwine/xorg-input-mtrack-config/master/xorg.conf.d)
 
